@@ -1,0 +1,27 @@
+#Entrada
+a = 5
+b = 4
+#Proceso
+z = a + b
+#salida
+print(z)
+__________________________________________________________________
+
+type (z)
+__________________________________________________________________
+
+#id, nombre, tipo_cuenta, consignacion
+#validaciones
+#mostrar
+
+#Capturando la informacion desde el teclado
+id = input("Digite su documento de identidad: ") #metodo o funcion, se deja en texto porque no se va a sumar
+nombre = input("Nombre del Cliente: ")
+tipo_cuenta = input("Tipo de cuenta: ")
+consignacion = float(input("Valor a consignar: "))
+
+#Mostrando informacion por pantalla
+print("Identificacion     : "+id)               #Es la mas facil
+print("Nombre             : {}".format(nombre)) #La recomendada
+print(f"Tipo de cuenta    : {tipo_cuenta}")
+print("Valor a consignar  : {:,.4f}".format(consignacion))
